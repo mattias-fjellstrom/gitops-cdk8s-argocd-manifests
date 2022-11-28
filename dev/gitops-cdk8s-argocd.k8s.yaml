@@ -13,7 +13,7 @@ spec:
 apiVersion: v1
 kind: ConfigMap
 data:
-  index.html: <html><h1>Version 1</h1></html
+  index.html: <html><h1>Version 2</h1></html
 metadata:
   name: gitops-cdk8s-argocd-index.html-c824e138
 ---
