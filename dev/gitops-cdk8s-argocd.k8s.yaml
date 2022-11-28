@@ -22,7 +22,7 @@ kind: Deployment
 metadata:
   name: gitops-cdk8s-argocd-deployment-c881a545
 spec:
-  replicas: 3
+  replicas: 5
   selector:
     matchLabels:
       app: website
